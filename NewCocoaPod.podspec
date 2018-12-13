@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source         = { :git => "https://github.com/KrishnaMohan454/NewCocoaPod.git", :tag => "1.0.0" }
   s.ios.deployment_target = '10.0'
-  s.ios.vendored_frameworks = 'NewCocoaPod.framework'
+  s.ios.vendored_frameworks = "NewCocoaPod.framework"
 
 
 end
