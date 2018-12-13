@@ -1,0 +1,6 @@
+framework module NewCocoaPod {
+  umbrella header "NewCocoaPod.h"
+
+  export *
+  module * { export * }
+}
